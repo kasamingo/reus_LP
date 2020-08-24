@@ -1,0 +1,621 @@
+body{
+    background-color: #0c0c0c;
+}
+
+.cta-res{
+    display: none;
+}
+button:hover{
+    background-color: #970e0e;
+}
+
+/*-----------------------------------ヘッダーのCSS----------------------------*/
+header{
+    height: 5vw;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.topBtn{
+    width: 20vw;
+    height: 4vw;
+    margin: 0;
+    margin-top: 0.5vw;
+    margin-left: -4vw;
+    color: white;
+    font-weight: bold;
+    font-size: 1.6vw;
+    outline: none;
+    background-color: #fd3838;
+}
+.logo{
+    width: 5vw;
+    margin-left: 15.6vw;
+}
+header p{
+    color: white;
+    font-size: 2vw;
+    margin: 0;
+    font-family: serif;
+    margin-left: 4vw;
+    margin-top: 2vw;
+}
+
+/*-----------------------------------ヘッダーのCSS----------------------------*/
+
+/*-----------------------------------トップページ--------------------------*/
+main{
+    text-align: center;
+    height: 36.1vw;
+}
+.topImg{
+    width: 65vw;
+}
+/*-----------------------------------トップページ--------------------------*/
+
+/*-----------------------------------メインセクション-----------------------*/
+.section-main{
+    height: 480vw;
+    background-color: #424241;
+}
+.cta-w{
+    margin-left: 16.8vw;
+}
+.cta{
+    float: left;
+    margin-top: 2vw;
+    width: 48vw;
+}
+.cta-right{
+    width: 14.6vw;
+}
+.ctaBtn {
+    margin-top: 5vw;
+    margin-right: 17.8vw;
+    float: right;
+    width: 17vw;
+    height: 12vw;
+    cursor: pointer;
+    outline: none;
+    background-color: #d10606;
+}
+.ctaBtn:hover{
+    background-color: #970e0e;
+}
+.ctaBtn2 {
+    margin-top: 5vw;
+    margin-right: 17.8vw;
+    float: right;
+    width: 17vw;
+    height: 12vw;
+    cursor: pointer;
+    outline: none;
+    background-color: #d10606;
+}
+.ctaBtn2:hover{
+    background-color: #970e0e;
+}
+
+
+
+
+
+.intro{
+    margin-left: 16.8vw;
+}
+.mori{
+    margin-top: 2vw;
+    width: 66vw;
+}
+
+
+
+
+.double img{
+    margin-top: 0vw;
+}
+.cool{
+    float: left;
+    margin-left: 16.8vw;
+    width: 48vw;
+    height: 25vw;
+}
+.hiruzu{
+    float: right;
+    width: 16vw;
+    height: 25vw;
+    margin-right: 16.8vw;
+}
+
+
+
+.reason-w{
+}
+.reason{
+    width: 65.3vw;
+    margin-left: 16.8vw;
+    margin-top: 2vw;
+}
+
+
+
+.disp-w{
+    margin-top: 2vw;
+}
+.disp img{
+    width: 32vw;
+}
+.disp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+}
+.left{
+    margin-left: 16.8vw;
+}
+.right{
+    margin-right: 10vw;
+}
+
+
+
+
+.choice-w{
+    margin-top: 1vw;
+}
+.choice{
+    width: 65vw;
+    margin-left: 16.8vw;
+}
+.order1{
+    width: 65vw;
+    margin-left: 16.8vw;
+}
+.order2{
+    width: 65vw;
+    margin-left: 16.8vw;
+}
+
+.order3{
+    width: 65vw;
+    margin-left: 16.8vw;
+}
+.order4{
+    width: 65vw;
+    margin-left: 16.8vw;
+}
+
+
+
+
+
+.taigi-w{
+    margin-top: 2vw;
+}
+.taigi{
+    width: 65vw;
+    margin-left: 16.8vw;
+}
+.grafu{
+    margin-top: 2vw;
+    width: 65vw;
+    margin-left: 16.8vw;
+}
+.taigi-gu{
+    margin-top: 1vw;
+    width: 65vw;
+    vertical-align: bottom;
+    margin-left: 16.8vw;
+}
+.mlm{
+    width: 65vw;
+    margin-left: 16.8vw;
+}
+
+
+.rebuy-w{
+    margin-top: 4vw;
+}
+.sell{
+    width: 65vw;
+    margin-left: 16.8vw;
+    margin-bottom: 1vw;
+}
+.rebuy{
+    width: 65vw;
+    margin-left: 16.8vw;
+}
+
+
+
+.final-w{
+    position: relative;
+    margin-top: 0vw;
+}
+.final{
+    width: 47vw;
+    margin-left: 16.8vw;
+}
+.night{
+    width: 17.6vw;
+    height: 25.6vw;
+}
+.finalBtn{
+    position: absolute;
+    width: 21vw;
+    z-index: 9;
+    height: 5vw;
+    top: 17.3vw;
+    right: 49vw;
+    font-size: 2vw;
+    color: white;
+    background-color: red;
+    outline: none;
+    font-weight: bold;
+}
+
+
+
+
+
+.run-w{
+    margin-top: 4vw;
+    margin-left: 16.8vw;
+}
+.run-w h2{
+    width: 15vw;
+    color: white;
+    font-size: 2.5vw;
+    font-family: serif;
+    border-bottom: 3px solid goldenrod;
+}
+table{
+    background-color: black;
+    width: 65vw;
+    font-weight: lighter;
+    color: rgb(221, 218, 218);
+    font-size: 1vw;
+}
+td{
+    padding: 2vw;
+}
+
+
+
+
+
+.copy-w{
+    margin-top: 3vw;
+    margin-left: 16.8vw;
+}
+.copy{
+    width: 65vw;
+}
+
+/*-----------------------------------メインセクション-----------------------*/
+
+
+
+/*------------------------------------------関数入ります*/
+.fadein {
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition:all 0.5s;
+}
+.fadein.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
+.fadein_2 {
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition:all 0.5s;
+}
+.fadein_2.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
+.fadein_3 {
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition:all 0.5s;
+}
+.fadein_3.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
+.fadein_4 {
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition:all 0.5s;
+}
+.fadein_4.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
+.fadein_5 {
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition:all 0.5s;
+}
+.fadein_5.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
+.fadein_6 {
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition:all 0.5s;
+}
+.fadein_6.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
+/*------------------------------------------関数入ります*/
+
+
+
+
+@media screen and (max-width:780px){
+    .section-main{
+        height: 570vw;
+    }
+    .run-w h2{
+        margin-bottom: 2vw;
+    }
+    body section h1{
+        font-size: 2em;
+        width: 25vw;
+    }
+
+    form .field label{
+        font-size: 1em;
+    }
+    form .field input[type="text"], form .field textarea{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:380px){
+    .fadein{
+        opacity: 1;
+        transform : translate(0, 0);
+    }
+    .fadein_2{
+        opacity: 1;
+        transform : translate(0, 0);
+    }
+    .cta-w{
+        display: none;
+    }
+    .cta-res{
+        display: block;
+        margin-left: 3vw;
+    }
+    .res {
+        margin-top: 0.8vw;
+        width: 90vw;
+    }
+    .resBtn{
+        background-color: #d10606;
+        margin-top: 2vw;
+        outline: none;
+    }
+    .section-main {
+        height: 705vw;
+    }
+    header{
+        height: 10vw;
+        margin-top: 1vw;
+    }
+    .logo {
+        width: 10vw;
+        margin-left: 0.6vw;
+    }
+    .topBtn{
+        font-size: 10px;
+    }
+    header p {
+        font-size: 11px;
+        margin-left: -6vw;
+        margin-top: 5vw;
+    }
+    .topBtn {
+        width: 25vw;
+        height: 9vw;
+        margin-left: 6.4vw;
+    }
+    .topImg {
+        width: 94.4vw;
+    }
+    main{
+        height: 52.5vw;
+    }
+    .cta-right {
+        width: 22.6vw;
+    }
+    
+
+
+
+    .intro {
+        margin-left: 2.4vw;
+    }
+    .mori{
+        width: 95vw;
+    }
+
+    .cool{
+        margin-left: 3vw;
+        width: 65vw;
+        height: 40vw;
+    }
+    .hiruzu {
+        width: 27vw;
+        height: 40vw;
+        margin-right: 3vw;
+    }
+
+    .cta-w {
+        margin-left: 2.8vw;
+    }
+    .cta {
+        margin-top: 4vw;
+        width: 65vw;
+    }
+    .ctaBtn {
+        margin-top: 7vw;
+        margin-right: 3vw;
+        width: 26vw;
+        height: 17vw;
+    }
+
+    .reason {
+        width: 94vw;
+        margin-left: 3vw;
+        margin-top: 2vw;
+    }
+    .disp img {
+        width: 46.5vw;
+    }
+    .left{
+        margin-left: 3vw;
+    }
+
+    .choice {
+        width: 94vw;
+        margin-left: 3vw;
+        margin-top: 2vw;
+    }
+    .order1 {
+        width: 94vw;
+        margin-left: 3vw;
+    }
+    .order2 {
+        width: 94vw;
+        margin-left: 3vw;
+    }
+    .order3 {
+        width: 94vw;
+        margin-left: 3vw;
+    }
+
+
+    .taigi {
+        width: 94vw;
+        margin-left: 3vw;
+    }
+    .grafu {
+        width: 94vw;
+        margin-left: 3vw;
+    }
+    .taigi-gu {
+        width: 94vw;
+        margin-left: 3vw;
+    }
+    
+
+    .run-w {
+        margin-left: 3vw;
+    }
+    .run-w h2 {
+        width: 25vw;
+        font-size: 15px;
+    }
+
+
+    table {
+        width: 94vw;
+        font-size: 11px;
+    }
+    td {
+        padding: 1vw;
+        font-size: 11px;
+    }
+
+
+
+    #hire {
+        width: 94vw;
+        margin-left: 3vw;
+    }
+
+    body section h1 {
+        font-size: 1.5em;
+        width: 40vw;
+    }
+    form .field label {
+        font-size: 0.8em;
+    }
+    form .field input[type="text"], form .field textarea {
+        font-size: 0.7em;
+    }
+    form input[type="submit"] {
+        padding: 10px 22px;
+        font-size: 1em;
+    }
+    form .field input[type="text"]#msg, form .field textarea#msg {
+        height: 12px;
+    }
+    .sell {
+        width: 95vw;
+        margin-left: 3vw;
+        margin-bottom: 1vw;
+    }
+    .rebuy {
+        width: 95vw;
+        margin-left: 3vw;
+    }
+    .final {
+        width: 65vw;
+        margin-left: 3vw;
+    }
+    .night {
+        width: 28.6vw;
+        height: 35.6vw;
+    }
+    .finalBtn {
+        width: 32vw;
+        height: 8vw;
+        top: 23.3vw;
+        font-size: 12px;
+    }
+    
+
+    .copy-w {
+        margin-top: 3vw;
+        margin-left: 3vw;
+    }
+    .copy {
+        width: 94vw;
+    }
+    
+    .mlm {
+        width: 94vw;
+        margin-left: 3vw;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
